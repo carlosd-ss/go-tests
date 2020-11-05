@@ -3,7 +3,7 @@ package main
 import "testing"
 
 func Test_hellow(t *testing.T) {
-	result := hellow("Carlos")
+	result := Hellow("Carlos")
 	expected := "Hellow Carlos"
 
 	if result != expected {
