@@ -1,0 +1,12 @@
+package main
+
+import "testing"
+
+func TestSum(t *testing.T) {
+	nums := Sum(2, 2)
+	expected := 6
+
+	if nums != expected {
+		t.Errorf("Expected" '%d', expected, "Reasult" '%d', nums)
+	}
+}
